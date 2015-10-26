@@ -1,0 +1,1892 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>Menú Virtual</title>
+
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+
+<script src="sliderengine/jquery.js"></script>
+<script src="sliderengine/amazingslider.js"></script>
+<script src="sliderengine/initslider-1.js"></script>
+<script src="conAjax.js" type="application/javascript" charset="utf-8"></script>
+<script src="Seleccionado.js" type="application/javascript" charset="utf-8"></script>
+<script src="code.js" type="application/javascript" charset="utf-8"></script>
+</head>
+<body>
+<div data-role="page" id="page">
+
+	<div data-role="header">
+    
+		<img src="imagenes/Waffas.jpg" width="100%" height="30%">
+	</div>
+	<div data-role="content" data-theme="a">	
+		<ul data-role="listview">
+          <div id = "virtual" style="text-align:center; padding-left:0;">
+
+          	<a href="#pageSelect" data-role="button">Pedido</a>
+          
+			<a href="#page2"> <img id="Entrada" src="imagenes/Entradas.png" width="7%" height="7%"></a> 
+            <a href="#page3"> <img id="Entrada" src= "imagenes/Sashimi.png" width="7%" height="7%"> </a> 
+            <br/>
+             <a href="#page4"> <img id="Entrada" src="imagenes/Ensaladas.png" width="7%" height="7%"></a> 
+             <a href="#page5"> <img id="Entrada" src= "imagenes/Temaki.png" width="7%" height="7%"> </a> 
+             <a href="#page6"> <img id="Entrada" src= "imagenes/RollsClasicos.png" width="7%" height="7%"> </a> 
+             <a href="#page7"> <img id="Entrada" src= "imagenes/RollsEspeciales.png" width="7%" height="7%"> </a> 
+             <a href="#page8"> <img id="Entrada" src= "imagenes/RollsTempura.png" width="7%" height="7%"> </a> 
+             <a href="#page9"> <img id="Entrada" src= "imagenes/ComboSushi.png" width="7%" height="7%"> </a>
+             <a href="#page10"> <img id="Entrada" src= "imagenes/Bebidas.png" width="7%" height="7%"> </a>
+             <a href="#page11"> <img id="Entrada" src= "imagenes/Postres.png" width="7%" height="7%"> </a>
+                          
+          </div> 
+		</ul>	
+	</div>
+	<div data-role="footer" style="padding-bottom: 40px;">
+		<div id="amazingslider-1" style="display:block;position:relative;margin:16px auto 32px;">
+        <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="images/Japo.jpg" /></li>
+            <li><img src="images/onigiri.jpg" /></li>
+            <li><img src="images/comida-japonesa.jpg" /></li>
+            <li><img src="images/onigiri-panda-maki-sushi-comida-japonesa-fiestas-anime-japan_MLM-O-3651225226_012013.jpg" /></li>
+            <li><img src="images/blog_images_1373901384-sushi-comida-japonesa.jpg" /></li>
+            <li><img src="images/receta-comida-sushi.jpg" /></li>
+            <li><img src="images/sushi-algas-comida-japonesa.jpg" /></li>
+            <li><img src="images/vela_con_diseno.jpg" /></li>
+        </ul>
+        <ul class="amazingslider-thumbnails" style="display:none;">
+            <li><img src="images/Japo-tn.jpg" /></li>
+            <li><img src="images/onigiri-tn.jpg" /></li>
+            <li><img src="images/comida-japonesa-tn.jpg" /></li>
+            <li><img src="images/onigiri-panda-maki-sushi-comida-japonesa-fiestas-anime-japan_MLM-O-3651225226_012013-tn.jpg" /></li>
+            <li><img src="images/blog_images_1373901384-sushi-comida-japonesa-tn.jpg" /></li>
+            <li><img src="images/receta-comida-sushi-tn.jpg" /></li>
+            <li><img src="images/sushi-algas-comida-japonesa-tn.jpg" /></li>
+            <li><img src="images/vela_con_diseno-tn.jpg" /></li>
+        </ul>
+        <div class="amazingslider-engine" style="display:none;"><a href="http://amazingslider.com">JavaScript Image Slider</a></div>
+    </div>
+	</div>
+</div>
+
+
+<div data-role="page" id="page2">  
+	<div data-role="header">
+       <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+         <h1>Entradas</h1>
+	</div> 
+    
+	<div data-role="content" >	
+    
+
+<div data-role="content" data-theme="a">	
+		<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:15px;text-align:center;">
+          
+			<a href="#page12"> 
+				<img id="Entrada" src="imagenes/1ACroquetas.png" width="7%" height="7%">
+			</a> 
+            <a href="#page13"> 
+            	<img id="Entrada" src= "imagenes/1BGiosas.png" width="7%" height="7%"> 
+            </a> 
+            <br/>
+             <a href="#page14"> 
+             	<img id="Entrada" src="imagenes/1CShumai.png" width="7%" height="7%">
+             </a> 
+             <a href="#page15"> 
+             	<img id="Entrada" src= "imagenes/1DEbitemp.png" width="7%" height="7%"> 
+             </a> 
+                          
+          </div> 
+		</ul>	
+	</div>
+
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></LEFT>
+	</div>
+</div>
+
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+    <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Sashimi</h1>
+	</div>
+	<div data-role="content">	
+			
+
+<div data-role="content" data-theme="a">	
+		<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="text-align:center;">
+          
+			<a href="#page16"> <img id="Entrada" src="imagenes/2ASalmon.png" width="7%" height="7%"></a> 
+            <a href="#page17"> <img id="Entrada" src= "imagenes/2BAtun.png" width="7%" height="7%"> </a> 
+            <br/>
+             <a href="#page18"> <img id="Entrada" src="imagenes/2CBlanco.png" width="7%" height="7%"></a> 
+             <a href="#page19"> <img id="Entrada" src= "imagenes/2DMixto.png" width="7%" height="7%"></a> 
+                          
+          </div> 
+		</ul>	
+	</div>
+
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Ensaladas</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+		<ul data-role="listview">
+          <div id = "virtual" style="text-align: center;padding: 25px 25px 25px 35px;">
+          
+			<a href="#page20"> <img id="Entrada" src="imagenes/3AWakame.png" width="7%" height="7%"></a> 
+            <a href="#page21"> <img id="Entrada" src= "imagenes/3BNeptuno.png" width="7%" height="7%"> </a> 
+            <br/>
+            <a href="#page22"> <img id="Entrada" src="imagenes/3CHarusame.png" width="7%" height="7%"></a> 
+            <a href="#page23"> <img id="Entrada" src= "imagenes/3DShiraae.png" width="7%" height="7%"> </a> 
+                          
+          </div> 
+		</ul>	
+	</div>
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Temaki</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+		<ul data-role="listview">
+          <div id = "virtual"  style="text-align: center;padding: 25px 25px 25px 35px;">
+          
+			<a href="#page24"> <img id="Entrada" src="imagenes/4AAlaska.png" width="7%" height="7%"></a> 
+            <a href="#page25"> <img id="Entrada" src= "imagenes/4BEbi.png" width="7%" height="7%"> </a> 
+            <br/>
+            <a href="#page26"> <img id="Entrada" src="imagenes/4CCalifornia.png" width="7%" height="7%"></a> 
+            <a href="#page27"> <img id="Entrada" src= "imagenes/4DDinamita.png" width="7%" height="7%"> </a> 
+                          
+          </div> 
+		</ul>	
+	</div>
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page6">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Rolls Clasicos</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+		<ul data-role="listview">
+          <div id = "virtual"  style="text-align: center;padding: 25px 25px 25px 35px;">
+          
+			<a href="#page28"> <img id="Entrada" src="imagenes/5AAlaska.png" width="7%" height="7%"></a> 
+            <a href="#page29"> <img id="Entrada" src= "imagenes/5BCalifornia.png" width="7%" height="7%"> </a> 
+            <br/>
+            <a href="#page30"> <img id="Entrada" src="imagenes/5CTiger.png" width="7%" height="7%"></a> 
+            <a href="#page31"> <img id="Entrada" src= "imagenes/5DUnagi.png" width="7%" height="7%"> </a> 
+                          
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT> <h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7> </center>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page7">
+	<div data-role="header">
+		<h1>Rolls Especiales</h1>       <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+	</div>
+	<div data-role="content">	
+
+<div data-role="content" data-theme="a">	
+		<ul data-role="listview">
+          <div id = "virtual"  style="text-align: center;padding: 25px 25px 25px 35px;">
+          
+			<a href="#page32"> <img id="Entrada" src="imagenes/6AKani.png" width="7%" height="7%"></a> 
+            <a href="#page33"> <img id="Entrada" src= "imagenes/6BOsaka.png" width="7%" height="7%"> </a> 
+            <br/>
+            <a href="#page34"> <img id="Entrada" src="imagenes/6CUnagiEspecial.png" width="7%" height="7%"></a> 
+            <a href="#page35"> <img id="Entrada" src= "imagenes/6DTropical.png" width="7%" height="7%"> </a> 
+                          
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+<div data-role="page" id="page8">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Rolls Tempura</h1>
+	</div>
+	<div data-role="content">	
+		
+
+<div data-role="content" data-theme="a">	
+		<ul data-role="listview">
+          <div id = "virtual"  style="text-align: center;padding: 25px 25px 25px 35px;">
+          
+			<a href="#page36"> <img id="Entrada" src="imagenes/7ACalTemp.png" width="7%" height="7%"></a> 
+            <a href="#page37"> <img id="Entrada" src= "imagenes/7BEbiTemp.png" width="7%" height="7%"> </a> 
+            <br/>
+            <a href="#page38"> <img id="Entrada" src="imagenes/7CTigerTemp.png" width="7%" height="7%"></a> 
+            <a href="#page39"> <img id="Entrada" src= "imagenes/7DPlatanoTemp.png" width="7%" height="7%"> </a> 
+                          
+          </div> 
+		</ul>	
+	</div>
+        
+        
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page9">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Combos</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+		<ul data-role="listview">
+          <div id = "virtual"  style="text-align: center;padding: 25px 25px 25px 35px;">
+          
+			<a href="#page40"> <img id="Entrada" src="imagenes/8AMaki.png" width="7%" height="7%"></a> 
+            <a href="#page41"> <img id="Entrada" src= "imagenes/8BNiguiri.png" width="7%" height="7%"> </a> 
+            <br/>
+            <a href="#page42"> <img id="Entrada" src="imagenes/8CEspecial.png" width="7%" height="7%"></a> 
+            <a href="#page43"> <img id="Entrada" src= "imagenes/8DTempura.png" width="7%" height="7%"> </a> 
+                          
+          </div> 
+		</ul>	
+	</div>
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page10">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Bebidas</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+		<ul data-role="listview">
+          <div id = "virtual"  style="text-align: center;padding: 25px 25px 25px 35px;">
+          
+			<a href="#page44"> <img id="Entrada" src="imagenes/10ATeVerde.png" width="7%" height="7%"></a> 
+            <a href="#page45"> <img id="Entrada" src= "imagenes/10BLimonada.png" width="7%" height="7%"> </a> 
+            <br/>
+            <a href="#page46"> <img id="Entrada" src="imagenes/10CJugos.png" width="7%" height="7%"></a> 
+            <a href="#page47"> <img id="Entrada" src= "imagenes/10DRefrescos.png" width="7%" height="7%"> </a> 
+                          
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page11">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Postres</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+		<ul data-role="listview">
+          <div id = "virtual"  style="text-align: center;padding: 25px 25px 25px 35px;">
+          
+			<a href="#page48"> <img id="Entrada" src="imagenes/9AFrito.png" width="7%" height="7%"></a> 
+            <a href="#page49"> <img id="Entrada" src= "imagenes/9BHelado.png" width="7%" height="7%"> </a> 
+            <br/>
+            <a href="#page50"> <img id="Entrada" src="imagenes/9CBrownie.png" width="7%" height="7%"></a> 
+            <a href="#page51"> <img id="Entrada" src= "imagenes/9DCheesecake.png" width="7%" height="7%"> </a> 
+                          
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+<div data-role="page" id="page12">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Croquetas de Pescado</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+		<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Croquetas de Pescado', 'imagenes/1ACroquetas.png')"> <img id="Entrada" src="imagenes/1ACroquetas.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Una croqueta es un rollo pequeño de pescado desmenuzado, el cual es empanizado y posteriormente frito. El consumo de pescados tiene muchos beneficios.<br />
+	         	<br />
+				<div>Pescado</div>
+				<div>Ajo</div>
+				<div>Huevo</div>
+				<div>Sal</div>
+				<div>Pimienta</div>
+				<div>Pan rallado</div>
+				<div>Perejil</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="pageSelect">
+	<div data-role="header">
+        <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Pedido</h1>
+	</div>
+	<div data-role="content">
+		<div data-role="content" data-theme="b">
+			<ul data-role="listview" id="listaSeleccionados">
+				
+			</ul>
+		</div>
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Inicio</button>
+        </a></h7></center>
+    </div>
+</div>
+
+<div data-role="page" id="page13">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Giosas</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Giosas', 'imagenes/1BGiosas.png')"> <img id="Entrada" src="imagenes/1BGiosas.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Se elaboran rellenos de carne picada o verduras enrollados en una delgada y fina masa, que se suele sellar con los dedos.<br />
+	         	<br />
+				<div>Cebolla</div>
+				<div>Repollo</div>
+				<div>Ajo</div>
+				<div>Fécula de maíz</div>
+				<div>Piel para giosas</div>
+				<div>Huevo</div>
+				<div>Carne de cerdo picada</div>
+				
+			 </div>
+
+          </div> 
+		</ul>		
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+<div data-role="page" id="page14">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Shumai</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Shumai', 'imagenes/1CShumai.png')"> <img id="Entrada" src="imagenes/1CShumai.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Su relleno es una combinación de ingredientes, que consta principalmente de carne picada y sazonada de cerdo, camarón picado y completo, y shiitake en pequeños trozos. La cubierta externa está hecha de una fina lámina de masa.<br />
+	         	<br />
+				<div>Lomo de cerdo</div>
+				<div>Pechuga de pollo</div>
+				<div>Aceite de ajonjolí</div>
+				<div>Kion</div>
+				<div>Sillao</div>
+				<div>Cebolla china</div>
+				<div>Chuño</div>
+				<div>Masa siu kao</div>
+				<div>Jugo de limón</div>
+				<div>Sillao claro japonés</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+<div data-role="page" id="page15">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Ebi Tempura</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Ebi Tempura', 'imagenes/1DEbitemp.png')"> <img id="Entrada" src="imagenes/1DEbitemp.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Significa "tempura de camarones", en donde ebi = camarones y la palabra "tempura" viene de témporas, una palabra portuguesa, ya que esta receta fue llevada a Japón por marineros portugueses.<br />
+	         	<br />
+				<div>Camarones cocidos</div>
+				<div>Harina de trigo</div>
+				<div>Fécula de maíz</div>
+				<div>Salsa de soja</div>
+				<div>Mirin</div>
+				<div>Salsa tabasco</div>
+				<div>Jengibre</div>
+				<div>Ciboulette</div>
+				<div>Aceite</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page16">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Sashimi de Salmón</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Sashimi de Salmón', 'imagenes/2ASalmon.png')"> <img id="Entrada" src="imagenes/2ASalmon.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">El Sashimi consiste principalmente en mariscos o pescado crudos, cortados finamente. Se sirve junto a ellos salsa de soja con wasabi, un condimento japonés picante y un aderezo simple como rábano daikon rallado.<br />
+             
+El salmón es un alimento habitual y razonablemente sano por su alto contenido en proteínas y ácidos grasos omega-3, con un contenido moderado en grasas.
+<br />				
+		
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+<div data-role="page" id="page17">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Sashimi de Atún</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Sashimi de Atún', 'imagenes/2BAtun.png')"> <img id="Entrada" src="imagenes/2BAtun.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">El Sashimi consiste principalmente en mariscos o pescado crudos, cortados finamente. Se sirve junto a ellos salsa de soja con wasabi, un condimento japonés picante y un aderezo simple como rábano daikon rallado.
+
+Los atunes son pescados que admiten una gran diversidad de preparaciones culinarias, ya sea en fresco o en conserva. Son de alto valor nutricional y muy gustosos.
+<br />
+	         	<br />
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+<div data-role="page" id="page18">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Sashimi de Pescado Blanco</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Sashimi de Pescado Blanco', 'imagenes/2CBlanco.png')"> <img id="Entrada" src="imagenes/2CBlanco.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">El Sashimi consiste principalmente en mariscos o pescado crudos, cortados finamente. Se sirve junto a ellos salsa de soja con wasabi, un condimento japonés picante y un aderezo simple como rábano daikon rallado.
+
+Pescado blanco se referirse a ciertos pescados origen oceánico con aleta dorsal. Su contenido graso no es muy alto en comparación con el pescado azul; no supera el 2% de su peso.
+<br />
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+<div data-role="page" id="page19">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Sashimi Mixto</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Sashimi Mixto', 'imagenes/2DMixto.png')"> <img id="Entrada" src="imagenes/2DMixto.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">El Sashimi consiste principalmente en mariscos o pescado crudos, cortados finamente. Se sirve junto a ellos salsa de soja con wasabi, un condimento japonés picante y un aderezo simple como rábano daikon rallado.
+         	<br />
+				<div>Cortes de varios tipos de pescado</div>
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page20">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Ensalada Wakame</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Ensalada Wakame', 'imagenes/3AWakame.png')"> <img id="Entrada" src="imagenes/3AWakame.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">El wakame es un alga comestible que se utiliza mucho en la gastronomía nipona, se vende seca y para usarla hay que rehidratarla en agua. Lo más destacable es su aspecto nutricional con valor calórico prácticamente nulo, lo que lo transforma en un alimento ideal para aquellos que están bajo regímenes de adelgazamiento.<br />
+	         	<br />
+				<div>Alga wakame deshidratada</div>
+				<div>Pepino</div>
+				<div>vinagre de arroz</div>
+				<div>salsa de soja</div>
+				<div>zumo de limón</div>
+				<div>semillas de sésamo.</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page21">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Ensalada Neptuno</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Ensalada Neptuno', 'imagenes/3BNeptuno.png')"> <img id="Entrada" src="imagenes/3BNeptuno.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Hecha a base de wakame japonés, kanikama (cangrejo artificial), semillas de ajonjolí negro y aceite de ajonjolí es una perfecta solución para la dieta y es una comida muy práctica.<br />
+	         	<br />
+				<div>carne de cangrejo</div>
+				<div>celery, cebolla morada, eneldo</div>
+				<div>mayonesa baja en grasa</div>
+				<div>sal y pimienta</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+<div data-role="page" id="page22">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Ensalada Harusame</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Ensalada Harusame', 'imagenes/3CHarusame.png')"> <img id="Entrada" src="imagenes/3CHarusame.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Esta ensalada tiene como ingrediente principal el Harusame, un tipo de fideo fino y transparente. Junto a los otros ingredientes adquiere una personalidad inconfundible de frescura visual como al paladar, muy apropiada para estas épocas del año. Su relativa baja caloría también la transforma en una aliada de aquellos que requieren de una dieta hipocalórica. Una ensalada diferente a las habituales.<br />
+	         	<br />
+				<div>harusame o hilo de frijol</div>
+				<div>pepinos japoneses</div>
+				<div>pechuga de pollo</div>
+				<div>jamón</div>
+				<div>huevos</div>
+				<div>perejil</div>
+				<div>Jengibre</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+<div data-role="page" id="page23">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Ensalada Shiraae</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Ensalada Shiraae', 'imagenes/3DShiraae.png')"> <img id="Entrada" src="imagenes/3DShiraae.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">El Tofu, conocido como queso de soja, resulta de la coagulación de leche de soja. Es bajo en calorías y rica en proteínas. Además es rica en minerales como hierro, calcio y magnesio, esta ensalada destaca por su sencillez, pero sorprende en el sabor.<br />
+	         	<br />
+				<div>tofu</div>
+				<div>zanahorias</div>
+				<div>setas shiitake</div>
+				<div>espinacas</div>
+				<div>semillas de sésamo tostadas</div>
+				<div>salsa de soja</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page24">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Temaki Alaska</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Temaki Alaska', 'imagenes/4AAlaska.png')"> <img id="Entrada" src="imagenes/4AAlaska.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Es una forma de sushi enrollado, creado en un cono o forma de rollo. Temaki es diferente de sushi maki, ya que no se corta en piezas. La traducción de temaki es “enrollado a mano”. Hacer sushi temaki es simple y no se requiere de aparatos ni utensilios.<br />
+	         	<br />
+				<div>Salmón</div>
+				<div>Aguacate</div>
+				<div>Queso crema</div>
+				<div>Masago</div>
+				<div>Ajonjolí</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page25">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Temaki Ebi</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Temaki Ebi', 'imagenes/4BEbi.png')"> <img id="Entrada" src="imagenes/4BEbi.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Es una forma de sushi enrollado, creado en un cono o forma de rollo. Temaki es diferente de sushi maki, ya que no se corta en piezas. La traducción de temaki es “enrollado a mano”. Hacer sushi temaki es simple y no se requiere de aparatos ni utensilios.<br />
+	         	<br />
+				<div>Camarón Tempura</div>
+				<div>Aguacate</div>
+				<div>Queso crema</div>
+				<div>Masago</div>
+				<div>Ajonjolí</div>
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page26">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Temaki California</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Temaki California', 'imagenes/4CCalifornia.png')"> <img id="Entrada" src="imagenes/4CCalifornia.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Es una forma de sushi enrollado, creado en un cono o forma de rollo. Temaki es diferente de sushi maki, ya que no se corta en piezas. La traducción de temaki es “enrollado a mano”. Hacer sushi temaki es simple y no se requiere de aparatos ni utensilios.<br />
+	         	<br />
+				<div>Cangrejo</div>
+				<div>Pepino</div>
+				<div>Aguacate</div>
+				<div>Masago</div>
+				<div>Ajonjolí</div>
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+<div data-role="page" id="page27">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Temaki Dinamita</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Temaki Dinamita', 'imagenes/4DDinamita.png')"> <img id="Entrada" src="imagenes/4DDinamita.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Es una forma de sushi enrollado, creado en un cono o forma de rollo. Temaki es diferente de sushi maki, ya que no se corta en piezas. La traducción de temaki es “enrollado a mano”. Hacer sushi temaki es simple y no se requiere de aparatos ni utensilios.<br />
+	         	<br />
+				<div>Cangrejo</div>
+				<div>Aguacate</div>
+				<div>Mayonesa</div>
+				<div>Masago</div>
+				<div>Ajonjolí</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+<div data-role="page" id="page28">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Alaska</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Alaska', 'imagenes/5AAlaska.png')"> <img id="Entrada" src="imagenes/5AAlaska.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">El Sushi es un plato de origen japonés basado en arroz cocido adobado con vinagre de arroz, azúcar, sal y otros ingredientes, como verduras, pescados o mariscos. Es uno de los más reconocidos de la gastronomía japonesa y uno de los más populares internacionalmente.<br />
+	         	<br />
+				<div>Salmon</div>
+				<div>Aguacate</div>
+				<div>Queso crema</div>
+				<div>Masago</div>
+				<div>Ajonjolí</div>
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page29">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>California</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('California', 'imagenes/5BCalifornia.png')"> <img id="Entrada" src="imagenes/5BCalifornia.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">El Sushi es un plato de origen japonés basado en arroz cocido adobado con vinagre de arroz, azúcar, sal y otros ingredientes, como verduras, pescados o mariscos. Es uno de los más reconocidos de la gastronomía japonesa y uno de los más populares internacionalmente.<br />
+	         	<br />
+				<div>Cangrejo</div>
+				<div>Pepino</div>
+				<div>Aguacate</div>
+				<div>Salsa de soja</div>
+				<div>Masago</div>
+				<div>Ajonjolí</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page30">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Tiger</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Tiger', 'imagenes/5CTiger.png')"> <img id="Entrada" src="imagenes/5CTiger.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">El Sushi es un plato de origen japonés basado en arroz cocido adobado con vinagre de arroz, azúcar, sal y otros ingredientes, como verduras, pescados o mariscos. Es uno de los más reconocidos de la gastronomía japonesa y uno de los más populares internacionalmente.<br />
+	         	<br />
+				<div>Salmón</div>
+				<div>Espárrago</div>
+				<div>Aguacate</div>
+				<div>Queso crema</div>
+				<div>Ajonjolí</div>
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page31">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Unagi</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Unagi', 'imagenes/5DUnagi.png')"> <img id="Entrada" src="imagenes/5DUnagi.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">El Sushi es un plato de origen japonés basado en arroz cocido adobado con vinagre de arroz, azúcar, sal y otros ingredientes, como verduras, pescados o mariscos. Es uno de los más reconocidos de la gastronomía japonesa y uno de los más populares internacionalmente.<br />
+	         	<br />
+				<div>Anguila</div>
+				<div>Cebollín</div>
+				<div>Queso crema</div>
+				<div>Ajonjolí</div>
+				<div>Salsa de anguila</div>
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page32">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Kani</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Kani', 'imagenes/6AKani.png')"> <img id="Entrada" src="imagenes/6AKani.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">El sushi se prepara generalmente en raciones pequeñas, aproximadamente del tamaño de un bocado, y puede adoptar diversas formas. El rasgo fundamental del sushi es el arroz de sushi, aderezado con vinagre de arroz.<br />
+	         	<br />
+				<div>Cangrejo</div>
+				<div>Aguacate</div>
+				<div>Queso Crema</div>
+				<div>Cangrejo crunch</div>
+				<div>Salsa kani</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page33">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Osaka</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Osaka', 'imagenes/6BOsaka.png')"> <img id="Entrada" src="imagenes/6BOsaka.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">El sushi se prepara generalmente en raciones pequeñas, aproximadamente del tamaño de un bocado, y puede adoptar diversas formas. El rasgo fundamental del sushi es el arroz de sushi, aderezado con vinagre de arroz.<br />
+	         	<br />
+				<div>Salmón</div>
+				<div>Atún</div>
+				<div>Queso crema</div>
+				<div>Cebolla tempura</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+<div data-role="page" id="page34">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Unagi Especial</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Unagi Especial', 'imagenes/6CUnagiEspecial.png')"> <img id="Entrada" src="imagenes/6CUnagiEspecial.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">El sushi se prepara generalmente en raciones pequeñas, aproximadamente del tamaño de un bocado, y puede adoptar diversas formas. El rasgo fundamental del sushi es el arroz de sushi, aderezado con vinagre de arroz.<br />
+	         	<br />
+				<div>Anguila</div>
+				<div>Salmón</div>
+				<div>Queso Crema</div>
+				<div>Aguacate</div>
+				<div>Salsa de Anguila</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page35">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Tropical</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Tropical', 'imagenes/6DTropical.png')"> <img id="Entrada" src="imagenes/6DTropical.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">El sushi se prepara generalmente en raciones pequeñas, aproximadamente del tamaño de un bocado, y puede adoptar diversas formas. El rasgo fundamental del sushi es el arroz de sushi, aderezado con vinagre de arroz.<br />
+	         	<br />
+				<div>Salmón</div>
+				<div>Aguacate</div>
+				<div>Queso crema</div>
+				<div>Tajadas de plátano</div>
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page36">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>California</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('California', 'imagenes/7ACalTemp.png')"> <img id="Entrada" src="imagenes/7ACalTemp.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Fritura rápida japonesa, en especial a los mariscos y verduras. Cada trozo de comida debe tener el tamaño de un bocado y se fríe en aceite a 180 ℃ tan solo durante dos o tres minutos.<br />
+	         	<br />
+				<div>Cangrejo</div>
+				<div>Aguacate</div>
+				<div>Queso crema</div>
+				<div>Masago</div>
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page37">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Ebi</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Ebi', 'imagenes/7BEbiTemp.png')"> <img id="Entrada" src="imagenes/7BEbiTemp.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Fritura rápida japonesa, en especial a los mariscos y verduras. Cada trozo de comida debe tener el tamaño de un bocado y se fríe en aceite a 180 ℃ tan solo durante dos o tres minutos.<br />
+	         	<br />
+				<div>Langostino</div>
+				<div>Aguacate</div>
+				<div>Queso crema</div>
+				<div>Masago</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page38">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Plátano</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Plátano', 'imagenes/7CTigerTemp.png')"> <img id="Entrada" src="imagenes/7CTigerTemp.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Fritura rápida japonesa, en especial a los mariscos y verduras. Cada trozo de comida debe tener el tamaño de un bocado y se fríe en aceite a 180 ℃ tan solo durante dos o tres minutos.<br />
+	         	<br />
+				<div>Salmón</div>
+				<div>Queso crema</div>
+				<div>Plátano</div>
+				<div>Masago</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page39">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Tiger</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Tiger', 'imagenes/7DPlatanoTemp.png')"> <img id="Entrada" src="imagenes/7DPlatanoTemp.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Fritura rápida japonesa, en especial a los mariscos y verduras. Cada trozo de comida debe tener el tamaño de un bocado y se fríe en aceite a 180 ℃ tan solo durante dos o tres minutos.<br />
+	         	<br />
+				<div>Salmón</div>
+				<div>Queso crema</div>
+				<div>Aguacate</div>
+				<div>Masago</div>
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page40">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Maki</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Maki', 'imagenes/8AMaki.png')"> <img id="Entrada" src="imagenes/8AMaki.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;"><br />
+	         	<br />
+				<div>8 piezas de temaki mixtos</div>
+				<div>7 piezas de maki mixtos</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page41">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Niguiri</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Niguiri', 'imagenes/8BNiguiri.png')"> <img id="Entrada" src="imagenes/8BNiguiri.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;"><br />
+	         	<br />
+				<div>8 piezas de niguiri mixtos</div>
+				<div>7 piezas de sashimi mixtos</div>
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page42">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Barco Especial</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Barco Especial', 'imagenes/8CEspecial.png')"> <img id="Entrada" src="imagenes/8CEspecial.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;"><br />
+	         	<br />
+				<div>Kani</div>
+				<div>Osaka</div>
+				<div>Unagi Especial</div>
+				<div>Tropical</div>
+				<div>Ensalada Neptuno</div>
+				<div>Croquetas de pescado</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page43">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Barco Tempura</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Barco Tempura', 'imagenes/8DTempura.png')"> <img id="Entrada" src="imagenes/8DTempura.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;"><br />
+	         	<br />
+				<div>California</div>
+				<div>Ebi</div>
+				<div>Plátano</div>
+				<div>Tiger</div>
+				<div>Ensalada Harusame</div>
+				<div>Ebitemp</div>
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page44">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Té verde</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Té verde', 'imagenes/10ATeVerde.png')"> <img id="Entrada" src="imagenes/10ATeVerde.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Es un tipo de té Camellia sinensis que no ha sufrido una oxidación durante su procesado, a diferencia del té negro, ya que las hojas se recogen frescas y después de someterse a la torrefacción, se prensan, enrollan, trituran y se secan.<br />
+	         	<br />				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page45">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Limonada</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Limonada', 'imagenes/10BLimonada.png')"> <img id="Entrada" src="imagenes/10BLimonada.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Es una bebida de elaboración casera, a base de limón, agua y azúcar, que puede tener o no contenido alcohólico.<br />
+	         	<br />
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page46">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Jugos naturales</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Jugos naturales', 'imagenes/10CJugos.png')"> <img id="Entrada" src="imagenes/10CJugos.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Los jugos recién exprimidos son un refresco muy nutritivo, principalmente por las vitaminas que contienen.<br />
+	         	<br />
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page47">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Refrescos</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Refrescos', 'imagenes/10DRefrescos.png')"> <img id="Entrada" src="imagenes/10DRefrescos.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Bebida preparada, con o sin agua carbonatada, edulcorantes como fructuosa o sacarosa, acidulantes, colorantes, antioxidantes, estabilizadores de acidez y conservadores, que se toma fría.<br />
+	         	<br />
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page48">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Helado Frito</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Helado Frito', 'imagenes/9AFrito.png')"> <img id="Entrada" src="imagenes/9AFrito.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Es un postre que suele elaborarse tomando una bola de helado a temperatura muy inferior a la habitual, rebozándola en huevo crudo, cubriéndola con copos de maíz o galletas trituradas y friéndola levemente. La baja temperatura del helado evita que se derrita mientras se fríe.<br />
+	         	<br />
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page49">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Helado</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Helado', 'imagenes/9BHelado.png')"> <img id="Entrada" src="imagenes/9BHelado.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Es un postre congelado hecho de agua, leche, crema de leche o natilla combinadas con saborizantes, edulcorantes o azúcar.<br />
+	         	<br />
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page50">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Brownie con Helado</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Brownie con Helado', 'imagenes/9CBrownie.png')"> <img id="Entrada" src="imagenes/9CBrownie.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Pastel de chocolate pequeño servido calientes con helado.<br />
+	         	<br />
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+<div data-role="page" id="page51">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Cheesecake</h1>
+	</div>
+	<div data-role="content">	
+
+
+<div data-role="content" data-theme="a">	
+	<ul data-role="listview" style="padding: 25px;">
+          <div id = "virtual" style="padding-left:0; text-align: center;">
+
+			<a href="#pageSelect" onClick="insertar('Cheesecake', 'imagenes/9DCheesecake.png')"> <img id="Entrada" src="imagenes/9DCheesecake.png" width="40%" height="40%"></a> 
+            
+	         <div class="ui-input-text ui-body-a ui-corner-all ui-shadow-inset" style="padding: 25px;margin: 15px; text-align: left;">Postre hecho a base de requesón o queso crema, azúcar y huevos, crema de leche, frutas o bayas.<br />
+	         	<br />
+				
+			 </div>
+
+          </div> 
+		</ul>	
+	</div>
+
+			
+	</div>
+	<div data-role="footer">
+		<LEFT><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="page777">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+		<h1>Waffas</h1>
+	</div>
+	<div data-role="content">	
+
+   <div id="respuesta">
+	<form id="entrada" method="POST"  data-ajax="true" onClick="evaluser()">
+    <div data-role="fieldcontain" style="text-align: center;">
+    
+            <label for="firstName">Usuario</label>
+            <input style="width: 70%; margin: 0 auto;" type="text"  name="usuario"    />
+ 			<br />
+ 			<div style="margin-top:10px;">
+            	<label   for="lastName">Clave&nbsp;&nbsp;</label>
+            	<input style="width: 70%; margin:0px auto; " type="text"  name="clave"  />
+ 			</div>
+ 			
+           <div id="notification"></div>
+             <input id="submit" type="submit" value="Enviar" name="submit"/> 
+    
+    </div>
+        </form>
+    </div>    
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31546.5566815966!2d-70.42516954569945!3d8.755971290375317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e7cacbaf21f7b85%3A0x316bc8be0d1dde10!2sBarintas!5e0!3m2!1ses!2sve!4v1398891850351" width="400" height="300" frameborder="0" style="border:0;width: 100%;"></iframe>	
+
+</div>
+	<div data-role="footer">
+		<center><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+</div>
+
+
+<div data-role="page" id="page778">
+	<div data-role="header">
+           <a href="#page" data-icon="back" data-iconpos="notext">Home</a>
+    	<h1>Cuenta</h1>
+	</div>
+          <div data-role="content" style="overflow: hidden;">	 
+
+	<form id="AjaxCuenta" method="POST"  data-ajax="true">
+    
+                <div data-role="fieldcontain">
+                <fieldset data-role="controlgroup">
+                
+                
+                  <!--legend>Rolls</legend-->
+                  <input type="radio" name="Rolls1" id="Rolls_0" value="Sushi_Taka" />
+                  <label for="Rolls_0">Sushi Taka</label>
+                  <input type="radio" name="Rolls1" id="Rolls_1" value="Sushi_Kai" />
+                  <label for="Rolls_1">Sushi Kai</label>
+                  <input type="radio" name="Rolls1" id="Rolls_2" value="Sushi_Kai_1" />
+                  <label for="Rolls_2">Sushi Kai 1</label>
+                </fieldset>
+              </div>
+              
+         
+              <div id="Respuesta"> </div> 
+          
+           
+            <button data-theme="b" id="envio" type="submit">Enviar</button>
+
+        </form>
+        
+
+	
+        </div>
+	</div>
+	<div data-role="footer">
+		<center><h7><a href="#page"><button data-icon="back">Volver</button>
+        </a></h7></center>
+	</div>
+    
+</div>
+
+
+
+</body>
+
+
+
+</html>
